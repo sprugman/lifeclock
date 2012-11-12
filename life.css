@@ -1,0 +1,115 @@
+body {
+	background: black;
+	color: #666;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 2em;
+}
+
+.wrapper {display:table;}
+.cell {display:table-cell; vertical-align:middle;}
+
+h1 {
+	border: 0;
+	font-size: 2em;
+}
+
+form {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+#life {
+	margin: auto;
+	text-align: left;
+	display: inline-block;
+}
+
+.year {
+	margin: 0 1px 1px 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.decade {
+	margin-right: 6px;
+}
+
+.month, .monthPad {
+	width: 14px;
+	height: 18px;
+	margin: 0 1px 1px 0;
+}
+
+.month:hover {
+	opacity: .5;
+}
+
+.day, .pad {
+	width: 2px;
+	height: 3px;
+	background: #333;
+	float: left;
+}
+
+.pad {
+	background: black;
+}
+
+.past {
+	background: #999;
+}
+
+.past.happy {
+	background: #f2c92b;
+}
+
+.past.sad {
+	background: #3d4eb8
+}
+
+.month-mode .year {
+
+}
+
+.month-mode .month, .month-mode .monthPad {
+	height: 10px;
+	width: 10px;
+}
+
+.month-mode .month {
+	background: #333;
+}
+
+
+.month-mode .pastMonth {
+	background: #999;
+}
+
+input {
+	background: #333;
+	color: #999;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+input[type="text"] {
+	border: 0;
+	padding: 3px 6px;
+	width: 6em;
+}
+
+#goBtn {
+	border-color: #666;
+}
+
+.note {
+	display: block;
+	text-align: center;
+	font-size: 2em;
+}
+
+
+label {
+	opacity: .1;
+}

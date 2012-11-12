@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 10px;
+	font: .85em/1.25 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 1.4em;
+	border-top: 1px solid #ccc;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+.jsiTag {
+	float: left;
+	margin-right: 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+#report {
+	margin-top: 2em;
+}
+
+
+/* MENUS */
+
+.menu {
+	padding: 0;
+}
+
+.menu li {
+	display: inline;
+}
+
+.menu a, .menu a:link {
+	text-decoration: underline;
+	padding: 5px;
+	color: #4d9ff1;
+}
+
+.menu a:hover {
+	text-decoration: none;
+}
+
+.menu li>span {
+	font-weight: bold;
+	color: #666;
+}
+
